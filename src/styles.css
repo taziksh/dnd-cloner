@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideBar {
+  flex: 0 0 1;
+  width: 200px;
+  padding: 10px;
+  border-right: 1px solid #111;
+  height: 100vh;
+  background: #e1e1e1;
+}
+
+.page {
+  flex: 1 1 auto;
+  padding: 0 20px;
+  margin: 20px;
+  border: 1px solid green;
+}
+
+.pageContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
